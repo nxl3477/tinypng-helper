@@ -1,0 +1,30 @@
+{
+  "name": "tinypng-helper",
+  "version": "1.0.0",
+  "description": "Quick image compression tool based on Tinypng",
+  "bin": {
+    "tinypng": "src/bin/tinypng.js"
+  },
+  "main": "npmArgs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.2.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.5",
+    "tinify": "^1.6.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nxl3477/tinypng-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nxl3477/tinypng-helper/issues"
+  },
+  "homepage": "https://github.com/nxl3477/tinypng-helper#readme"
+}
